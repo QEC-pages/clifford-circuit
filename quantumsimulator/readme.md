@@ -1,3 +1,8 @@
+## How to start?
+* ./qsim.out
+* ./qsim.out file="quantum_circuit/xx2.qc"
+
+
 Weilei Zeng Jan 8 2019
 ## Summary of this folder:
  * qasm is used to generate the circuit. It show the result in pdf/png, so we can check the validity by hand. This part is done in Weilei's Macbook Air, saved and synced in Dropbox.
