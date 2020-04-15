@@ -1,7 +1,7 @@
 # quantum-circuit
 Date: Jun 2018 - Feb 2019.   Authors: Michael Woolls(UCR), Weilei Zeng(UCR)
 
-[A quantum circuit simulator, with depolorizing noise channel.](ErrorModel.md)
+[A classical simulator of Clifford circuits, which generate errors in a depolorizing noise channel.](ErrorModel.md)
 
 In the level of quantum error corection(QEC), all calculation can be classical. Hence, a simulator for quantum error correction could never touch the wave function or density matrix of the qubit system and result in a much faster speed, as it is done in our simulator. It takes the circuit as input, divides all gates into consecutive timesteps(moments), then add depolarizing error in between different timesteps. Measurement/read-out errors can be added outside of this program.(We may implement this in the future)
 
